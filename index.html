@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caculator</title>
+</head>
+<body>
+    <div class="caculator">
+        <div class="display">
+            <input id="display" readonly>
+        </div>
+        <div class="buttons">
+            <button onclick="updateDisplay('+')">+</button>
+            <button onclick="updateDisplay('1')">1</button>
+            <button onclick="updateDisplay('2')">2</button>
+            <button onclick="updateDisplay('3')">3</button>
+            <button onclick="updateDisplay('-')">-</button>
+            <button onclick="updateDisplay('4')">4</button>
+            <button onclick="updateDisplay('5')">5</button>
+            <button onclick="updateDisplay('6')">6</button>
+            <button onclick="updateDisplay('*')">*</button>
+            <button onclick="updateDisplay('7')">7</button>
+            <button onclick="updateDisplay('8')">8</button>
+            <button onclick="updateDisplay('9')">9</button>
+            <button onclick="updateDisplay('/')">/</button>
+            <button onclick="updateDisplay('.')">.</button>
+            <button onclick="updateDisplay('0')">0</button>
+            <button onclick="solve()">=</button>
+            <button onclick="clr()" id="clear">C</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
